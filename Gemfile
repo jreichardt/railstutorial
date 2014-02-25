@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '~> 3.2.6'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.0.1'
-gem 'will_paginate', '3.0.3'
-gem 'bootstrap-will_paginate', '0.0.6'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'therubyracer'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -30,11 +31,11 @@ group :assets do
   gem 'uglifier', '>= 1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails'
 
 group :test do
   gem 'rspec-rails', '2.9.0'
-  gem 'capybara', '1.1.2'
+  gem 'capybara', '~> 1.1.2'
   gem 'rb-inotify', '0.8.8'
   gem 'libnotify', '0.5.9'
   gem 'guard-spork', '0.3.2'
